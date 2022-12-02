@@ -1,0 +1,50 @@
+.style-head {
+    margin: 20px;
+}
+
+.div-add {
+    background-color: bisque;
+    width: 450px;
+    height: 250px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    height: 250px;
+    width: 450px;
+}
+
+.style-vidio-div {
+    height: 250px;
+    width: 320px;
+    float: left;
+    margin: 10px;
+}
+
+.footer-item {
+    float: left;
+    padding: 10x;
+    width: 33%;
+    height: 180px;
+    margin-bottom: 10px;
+    background-color: indianred;
+}
+
+.footer-item ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    .div {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1286px) {
+    .div {
+        display: block;
+    }
+}

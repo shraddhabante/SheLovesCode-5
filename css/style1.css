@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.style-div {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.style-div1 {
+    float: left;
+    width: 50%;
+}
+
+.style-item1 {
+    width: 20%;
+    background-color: whitesmoke;
+    height: 215px;
+    float: left;
+}
+
+.style-item2 {
+    width: 30%;
+    background-color: aqua;
+    height: 215px;
+    float: left;
+}
+@media screen and (min-width: 400px) {
+    .div {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1286px) {
+    .div {
+        display: block;
+    }
+}
